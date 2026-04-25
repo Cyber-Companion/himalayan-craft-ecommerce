@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #0b1220;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #111827;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #3b82f6;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Products */
+.products {
+  padding: 30px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #1f2937;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #10b981;
+  border: none;
+  color: #fff;
+}
+
+/* Cart */
+.cart {
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111827;
+}
