@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Himalayan Craft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2>Himalayan Craft</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Cart</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Authentic Kashmiri Handmade Products</h1>
+  <p>Bringing tradition to modern e-commerce</p>
+  <button>Shop Now</button>
+</section>
+
+<section class="products">
+  <h2>Featured Products</h2>
+
+  <div class="product-grid">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200" />
+      <h3>Pashmina Shawl</h3>
+      <p>₹4,999</p>
+      <button onclick="addToCart('Pashmina Shawl')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200" />
+      <h3>Wood Carving</h3>
+      <p>₹2,499</p>
+      <button onclick="addToCart('Wood Carving')">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200" />
+      <h3>Handmade Carpet</h3>
+      <p>₹9,999</p>
+      <button onclick="addToCart('Carpet')">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="cart">
+  <h2>Cart</h2>
+  <ul id="cart-items"></ul>
+</section>
+
+<footer>
+  <p>© 2026 Himalayan Craft</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
