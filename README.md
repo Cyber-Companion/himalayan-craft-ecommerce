@@ -20,3 +20,4 @@ A modern e-commerce frontend designed for showcasing and selling authentic Kashm
 
 ## 🌍 Vision
 To bridge traditional Kashmiri craftsmanship with modern digital commerce.
+<img width="1022" height="622" alt="image" src="https://github.com/user-attachments/assets/d811cef2-e727-4e89-9c7d-2fc2993db70d" />
